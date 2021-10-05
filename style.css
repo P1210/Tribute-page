@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    background-color: rgba(128, 128, 128, 0.57);
+    color:black;
+    font-family: 'Source Sans Pro' , 'Arial' , sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+
+#main
+{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+
+/*---------------------------------------------------*/
+/*https://codepen.io/pranjal-gupta/pen/qBOrGYw*/
+h1
+{
+    font-weight: 400;
+    margin-top : 20px;
+    margin-bottom : 10px;
+    text-align : center;
+    letter-spacing : 1px;
+    text-transform : uppercase;
+}
+
+#title
+{
+    margin-bottom: 50px;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+/*----------------------------------------------------*/
+
+#img-div
+{
+    margin: 10px auto 30px auto;
+    text-align: center;
+    display: block;
+  align-items:center;
+}
+
+#image
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    border : 2px solid black;
+    max-width:100%;
+    height:auto;
+}
+
+#img-caption
+{
+    padding-top: 10px;
+    font-weight:200;
+}
+
+/*-------------------------------------------------------*/
+
+#tribute-info
+{
+    margin: 30px auto 20px auto;
+    padding: 20px;
+}
+
+p
+{
+    font-size: 110%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+/*---------------------------------------------------------*/
+
+.grid
+{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin:20px;
+    padding:10px;
+}
+
+.box
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;  
+}
+
+h2
+{
+    font-weight: 400;
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h3
+{
+    font-size:110%;
+    padding:5px;
+    font-weight:200;
+}
+
+.box-text
+{
+    font-size: 95%;
+    font-weight: 200;
+    padding: 10px;
+    line-height: 140%;
+}
+
+
+/*---------------------------------------------------------*/
+
+.quote
+{
+    margin: 10px auto 40px auto;
+    padding: 0 10px 0 10px;
+}
+
+.qt
+{
+    font-family: 'Fira Sans','Arial',sans-serif;
+    font-size: 115%;
+    text-align: center;
+    line-height: 140%;
+    font-weight:300;
+}
+
+/*-------------------------------------------------------------*/
+
+#t-link
+{
+    text-align: center;
+    margin:20px;
+}
+
+#t-link a:link,
+#t-link a:visited
+{
+    text-decoration: none;
+    color:black;
+}
+
+#t-link a:active,
+#t-link a:hover
+{
+    color:white;
+    transition: color 0.2s;
+}
+
+/*------------------------------------------------------------------*/
